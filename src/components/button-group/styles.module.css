@@ -1,0 +1,27 @@
+.button-group {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.button-group > * {
+  flex-grow: 1;
+  width: 100%;
+}
+
+* + .button-group {
+  margin-top: 30px;
+}
+
+@media (min-width: 640px) {
+  .button-group {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .button-group > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 50%;
+  }
+}

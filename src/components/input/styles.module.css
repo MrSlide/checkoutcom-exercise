@@ -1,0 +1,36 @@
+.input {
+  appearance: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: var(--default-text-color);
+  font-family: var(--default-text-font);
+  font-size: var(--body-text-size);
+  font-weight: var(--body-text-weight);
+  line-height: var(--default-text-line-height);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b6b8c6;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea.input {
+  max-height: 320px;
+  min-height: 120px;
+  resize: vertical;
+}
+
+.input:focus {
+  border-color: #2bd4db;
+  outline: none;
+}
+
+.input[aria-invalid=true] {
+  border-color: #ee6d5f;
+}
+
+* + .input {
+  margin-top: 10px;
+}

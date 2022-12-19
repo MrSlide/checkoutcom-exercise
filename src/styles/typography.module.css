@@ -1,0 +1,35 @@
+.title-text {
+  color: var(--default-text-color);
+  font-family: var(--default-text-font);
+  font-size: var(--title-text-size);
+  font-weight: var(--title-text-weight);
+  line-height: var(--default-text-line-height);
+}
+
+.subtitle-text {
+  color: var(--default-text-color);
+  font-family: var(--default-text-font);
+  font-size: var(--subtitle-text-size);
+  font-weight: var(--subtitle-text-weight);
+  line-height: var(--default-text-line-height);
+}
+
+.item-title-text {
+  color: var(--default-text-color);
+  font-family: var(--default-text-font);
+  font-size: var(--item-title-text-size);
+  font-weight: var(--item-title-text-weight);
+  line-height: var(--default-text-line-height);
+}
+
+.body-text {
+  color: var(--default-text-color);
+  font-family: var(--default-text-font);
+  font-size: var(--body-text-size);
+  font-weight: var(--body-text-weight);
+  line-height: var(--default-text-line-height);
+}
+
+* + .body-text {
+  margin-top: 10px;
+}

@@ -1,0 +1,23 @@
+.responsive-dual-col-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.responsive-dual-col-layout__column {
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+@media (min-width: 640px) {
+  .responsive-dual-col-layout {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .responsive-dual-col-layout__column {
+    flex-basis: 50%;
+    flex-shrink: 1;
+  }
+}

@@ -1,0 +1,32 @@
+.floating-box-layout {
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  min-width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #aaeef1;
+  background-image: url('/img/background/ripples.svg'), linear-gradient(116.4deg, #d5f6f8 16.6%, #ffffeee6 82.46%);
+  background-position: bottom right, 0 0;
+  background-repeat: no-repeat;
+}
+
+.floating-box-layout__inner {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .floating-box-layout {
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 80px 20px;
+  }
+
+  .floating-box-layout__inner {
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 0 #0c114226;
+  }
+}

@@ -1,0 +1,13 @@
+.section {
+  padding: 20px 10px 40px 10px;
+}
+
+.section--off {
+  background-color: #f2f3f5;
+}
+
+@media (min-width: 640px) {
+  .section {
+    padding: 20px 20px 40px 20px;
+  }
+}

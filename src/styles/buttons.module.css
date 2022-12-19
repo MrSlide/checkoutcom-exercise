@@ -1,0 +1,57 @@
+.primary-button {
+  display: block;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #0c1142;
+  color: #ffffc8;
+  border-width: 0;
+  border-radius: 8px;
+  outline-style: solid;
+  outline-color: #3d416800;
+  outline-offset: 2px;
+  outline-width: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out, outline-color 0.2s ease-out;
+}
+
+.primary-button:hover {
+  background-color: #3d4168;
+}
+
+.primary-button:focus {
+  outline-color: #3d4168;
+}
+
+.secondary-button {
+  display: block;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #2bd4db;
+  color: #0c1142;
+  border-width: 0;
+  border-radius: 8px;
+  outline-style: solid;
+  outline-color: #2bd4db00;
+  outline-offset: 2px;
+  outline-width: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out, outline-color 0.2s ease-out;
+}
+
+.secondary-button:hover {
+  background-color: #6be1e6;
+}
+
+.secondary-button:focus {
+  outline-color: #2bd4db;
+}
