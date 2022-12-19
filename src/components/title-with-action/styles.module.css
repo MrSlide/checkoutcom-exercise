@@ -1,0 +1,19 @@
+.title-with-action {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title-with-action__title-wrapper {
+  flex-basis: 100%;
+}
+
+.title-with-action__action-wrapper {
+  flex-basis: auto;
+}
+
+@media (min-width: 640px) {
+  .title-with-action {
+    flex-direction: row;
+  }
+}
