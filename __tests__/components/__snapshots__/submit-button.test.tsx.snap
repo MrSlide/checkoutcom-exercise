@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubmitButton component renders correctly in form submitting state 1`] = `
+<button
+  aria-busy={true}
+  className="secondary-button"
+  disabled={true}
+  type="submit"
+/>
+`;
+
+exports[`SubmitButton component renders correctly in form validating state 1`] = `
+<button
+  aria-busy={true}
+  className="secondary-button"
+  disabled={true}
+  type="submit"
+/>
+`;
+
+exports[`SubmitButton component renders correctly in idle state 1`] = `
+<button
+  aria-busy={false}
+  className="secondary-button"
+  disabled={false}
+  type="submit"
+/>
+`;

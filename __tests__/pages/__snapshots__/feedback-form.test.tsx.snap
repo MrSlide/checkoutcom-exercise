@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackFormPage component renders correctly 1`] = `
+<main>
+  <Section>
+    <Title>
+      Feedback Form
+    </Title>
+    <Form
+      onSubmit={[Function]}
+    >
+      <ResponsiveDualColLayout>
+        <ResponsiveDualColLayoutColumn>
+          <InputGroup
+            label="Name"
+          >
+            <Input
+              id="name-input"
+              maxLength={100}
+              name="name"
+              required={true}
+              validate={[Function]}
+            />
+          </InputGroup>
+          <InputGroup
+            label="Email"
+          >
+            <Input
+              id="email-input"
+              name="email"
+              required={true}
+              validate={[Function]}
+            />
+          </InputGroup>
+          <InputGroup
+            label="Rating"
+          >
+            <Input
+              id="rating-input"
+              max={5}
+              maxLength={1}
+              min={1}
+              minLength={1}
+              name="rating"
+              required={true}
+              step={1}
+              type="number"
+              validate={[Function]}
+            />
+          </InputGroup>
+        </ResponsiveDualColLayoutColumn>
+        <ResponsiveDualColLayoutColumn>
+          <InputGroup
+            label="Comment"
+          >
+            <Input
+              id="comment-input"
+              maxLength={1000}
+              name="comment"
+              required={true}
+              type="text-area"
+              validate={[Function]}
+            />
+          </InputGroup>
+          <ButtonGroup>
+            <SubmitButton>
+              Submit
+            </SubmitButton>
+          </ButtonGroup>
+        </ResponsiveDualColLayoutColumn>
+      </ResponsiveDualColLayout>
+    </Form>
+  </Section>
+</main>
+`;

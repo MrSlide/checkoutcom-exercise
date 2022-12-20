@@ -15,6 +15,7 @@ module.exports = createJestConfig({
     '^@/components/(.*)$': '<rootDir>/components/$1',
     '^@/pages/(.*)$': '<rootDir>/pages/$1',
   },
+  resetMocks: true,
   resetModules: true,
   restoreMocks: true,
   testEnvironment: 'jest-environment-jsdom',

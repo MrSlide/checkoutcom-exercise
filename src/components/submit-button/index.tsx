@@ -3,12 +3,8 @@ import { useFormContext } from 'react-hook-form'
 
 import buttonStyles from '../../styles/buttons.module.css'
 
-interface Props {
-  disabled?: boolean,
-}
-
-export default function SubmitButton(props: React.PropsWithChildren<Props>): React.ReactElement {
-  const { children, disabled } = props
+export default function SubmitButton(props: React.PropsWithChildren<{}>): React.ReactElement {
+  const { children } = props
   const { formState: { isSubmitting, isValidating } } = useFormContext()
 
   const busy = isSubmitting || isValidating
@@ -17,7 +13,7 @@ export default function SubmitButton(props: React.PropsWithChildren<Props>): Rea
     <button
       aria-busy={busy}
       className={buttonStyles['secondary-button']}
-      disabled={disabled || busy}
+      disabled={busy}
       type='submit'
     >
       {children}

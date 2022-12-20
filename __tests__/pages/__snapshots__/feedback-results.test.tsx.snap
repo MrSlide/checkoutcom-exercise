@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackResultsPage component renders correctly 1`] = `
+<main>
+  <Section>
+    <TitleWithAction
+      action={
+        <RouterLink
+          href="/"
+        >
+          Go back
+        </RouterLink>
+      }
+    >
+      <Title>
+        Feedback Results
+      </Title>
+    </TitleWithAction>
+    <RatingsChart
+      data={
+        {
+          "1": 42,
+          "2": 234,
+          "3": 454,
+          "4": 3454,
+          "5": 674,
+        }
+      }
+    />
+  </Section>
+  <Section
+    off={true}
+  >
+    <SubTitle>
+      Latest Comments
+    </SubTitle>
+    <CommentList>
+      <Comment
+        author="John Doe"
+        comment="Lorem ipsum dolore sit amet"
+      />
+    </CommentList>
+  </Section>
+</main>
+`;
+
+exports[`FeedbackResultsPage component renders correctly with data loading errors 1`] = `
+<main>
+  <Section>
+    <TitleWithAction
+      action={
+        <RouterLink
+          href="/"
+        >
+          Go back
+        </RouterLink>
+      }
+    >
+      <Title>
+        Feedback Results
+      </Title>
+    </TitleWithAction>
+    <Paragraph>
+      It was not possible to load the ratings.
+    </Paragraph>
+  </Section>
+  <Section
+    off={true}
+  >
+    <SubTitle>
+      Latest Comments
+    </SubTitle>
+    <Paragraph>
+      It was not possible to load the latest comments.
+    </Paragraph>
+  </Section>
+</main>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment component renders correctly 1`] = `
+<div
+  role="comment"
+>
+  <ItemTitle>
+    John Doe
+  </ItemTitle>
+  <Paragraph>
+    Lorem ipsum dolore sit amet.
+  </Paragraph>
+</div>
+`;

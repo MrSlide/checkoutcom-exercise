@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentList component renders correctly with comments 1`] = `
+<ol
+  className="comments-list"
+>
+  <li
+    className="comments-list__item"
+  >
+    <Comment
+      author="John Doe"
+      comment="Lorem ipsum dolore sit amet."
+    />
+  </li>
+  <li
+    className="comments-list__item"
+  >
+    <Comment
+      author="Jane Doe"
+      comment="Duis finibus pretium mi, eu maximus quam mollis ac."
+    />
+  </li>
+</ol>
+`;
+
+exports[`CommentList component renders correctly without comments 1`] = `
+<Paragraph>
+  There are no comments yet.
+</Paragraph>
+`;
